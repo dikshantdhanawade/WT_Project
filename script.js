@@ -2,7 +2,7 @@
 const plans = {
   loss: {
     calories: 1800,
-    diet: [" Oats & Fruits", "Salad + Roti", " Soup + Veggies"],
+    diet: [" Oats & Fruits", "Salad + Roti", "Healthy Soup + Veggies"],
     tips: ["Drink more water", "Avoid sugar", "Do cardio daily"]
   },
   gain: {
