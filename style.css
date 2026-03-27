@@ -10,7 +10,7 @@ input, select, button {
 }
 
 li {
-  background: white;
+  background: rgb(244, 241, 241);
   margin: 5px;
   padding: 10px;
   list-style: none;
