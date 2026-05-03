@@ -1,0 +1,37 @@
+<!-- Entry point for frontend app -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Health Diet Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1> AI Diet Planner</h1>
+
+
+<input type="number" id="age" placeholder="Age">
+<input type="number" id="weight" placeholder="Weight (kg)">
+
+<select id="goal">
+  <option value="">Select Goal</option>
+  <option value="loss">Weight Loss</option>
+  <option value="gain">Weight Gain</option>
+  <option value="maintain">Maintain</option>
+</select>
+
+<button id="generate">Generate Plan</button>
+
+
+<h3> Calories</h3>
+<p id="calories"></p>
+
+<h3> Diet plan</h3>
+<ul id="diet"></ul>
+
+<h3> Health Tips</h3>
+<ul id="tips"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
