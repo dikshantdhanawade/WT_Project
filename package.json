@@ -1,0 +1,16 @@
+{
+  "name": "ai-health-diet-planner",
+  "version": "1.0.0",
+  "description": "AI Health Diet Planner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["diet", "health", "planner"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
